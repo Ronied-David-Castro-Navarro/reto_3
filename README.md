@@ -5,7 +5,7 @@ reto_3 POO
 
 ## Contenido
 
-### 1. Geometría (`/geometria`)
+### 1. Geometría (`/ejercicio`)
 Implementación de clases para trabajar con figuras geométricas:
 - **Point**: representa un punto en el plano cartesiano.
 - **Line**: representa una línea entre dos puntos. Incluye métodos para calcular longitud, pendiente y verificar cruces con los ejes.
