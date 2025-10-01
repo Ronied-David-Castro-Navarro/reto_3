@@ -1,0 +1,31 @@
+```mermaid
+classDiagram
+    class MenuItem {
+        - name: str
+        - price: float
+        + calculate_price() float
+    }
+
+    class Beverage {
+        - size: str
+    }
+
+    class Appetizer {
+        - spicy: bool
+    }
+
+    class MainCourse {
+        - portion_size: str
+    }
+
+    class Order {
+        - items: list[MenuItem]
+        + add_item(item: MenuItem) void
+        + calculate_total() float
+        + apply_discount() float
+    }
+
+    MenuItem <|-- Beverage
+    MenuItem <|-- Appetizer
+    MenuItem <|-- MainCourse
+    Order --> MenuItem
