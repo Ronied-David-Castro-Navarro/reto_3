@@ -1,3 +1,5 @@
+
+
 classDiagram
     class MenuItem {
         +name: str
